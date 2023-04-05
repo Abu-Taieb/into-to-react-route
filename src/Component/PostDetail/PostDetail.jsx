@@ -4,7 +4,7 @@ import "./PostDetail.css";
 
 const PostDetail = () => {
   const post = useLoaderData();
-  console.log(post);
+  
   const { id, title, userId, body } = post;
 
   // Optional

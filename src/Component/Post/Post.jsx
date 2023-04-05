@@ -3,8 +3,7 @@ import "./Post.css";
 import { Link, useNavigate } from "react-router-dom";
 
 const Post = ({ post }) => {
-  console.log(post);
-  const { title, body, id } = post;
+  const { title, id } = post;
 
   // Optional
   const navigate = useNavigate();
