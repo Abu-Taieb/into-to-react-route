@@ -1,0 +1,12 @@
+.active{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid blue;
+}
+.active:hover{
+    color:blueviolet;
+    border: 1px solid blue;
+    background-color: #fff;
+}

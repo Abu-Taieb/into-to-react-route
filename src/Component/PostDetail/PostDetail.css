@@ -1,0 +1,21 @@
+.postDetails{
+    border: 1px solid blue;
+    padding: 20px;
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.postDetails button{
+    margin: 10px;
+}
+.userId{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.title{
+    margin: 0;
+}
+.postDetails p{
+    text-align: justify;
+}

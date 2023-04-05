@@ -13,21 +13,6 @@ import FriendDetail from './Component/FriendDetail/FriendDetail';
 import Posts from './Component/Posts/Posts';
 import PostDetail from './Component/PostDetail/PostDetail';
 
-// const router = createBrowserRouter([
-//   {
-//     path : '/',
-//     element : <App></App>
-//   },
-//   {
-//     path : '/about',
-//     element : <About></About>
-//   },
-//   {
-//     path : '/contact',
-//     element : <Contact></Contact>
-//   }
-// ]);
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -65,13 +50,16 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact></Contact>
       },
+      {
+        path: '*',
+        element: <div className="">4O4 Not Found !!!</div>
+      }
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
     <RouterProvider router = {router}></RouterProvider>
   </React.StrictMode>,
 )

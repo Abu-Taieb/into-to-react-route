@@ -1,5 +1,6 @@
 .friend{
-    border: 1px solid #fff;
+    border: 1px solid blue;
     margin: 10px;
     border-radius: 10px;
+    padding: 30px;
 }

@@ -1,0 +1,13 @@
+.friendDetail{
+    border: 1px solid blue;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+.friendDetail span{
+    color: blue;
+}
+.details{
+    text-align: justify;
+}
